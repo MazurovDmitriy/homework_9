@@ -1,0 +1,92 @@
+
+@media screen and (min-width: 320px) {
+	.slider {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
+	}
+	.about { 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
+	}
+	.about__link a:hover {
+		text-decoration: underline;
+	}
+	.starts__item {
+		behavior: url(/PIE.htc);
+	}
+	.starts__photo {
+		behavior: url(/PIE.htc);
+	}
+	.recent__title {
+		overflow: visible;
+	}
+	.recent__tomore a:hover {
+		text-decoration: underline;
+	}
+	.recent__pic {
+		behavior: url(/PIE.htc);
+	}
+
+	footer {
+		background-image: url(../img/footer-bg.jpg);
+		background-repeat: no-repeat;
+		background-color: #7e808a;
+		background-position: top center;
+		background-size: initial;
+		box-sizing: border-box;
+		position: relative;
+	}
+	footer:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: 16px;
+		background-image: url(../img/footer-shadow.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	.footer-nav a:hover{
+		text-decoration: underline;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.header-menu {
+		left: 116px;
+	}
+	.header-menu:hover {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e636293e', endColorstr='#e636293e',GradientType=0 );
+	}
+	.header-menu__submenu a:after {
+		display: none;
+	}
+	.header-menu__submenu a:hover:after {
+		display: block;
+	}
+	.header-menu__submenu a:hover {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=0 );
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.header-menu {
+		left: 34px;
+	}
+	.header-menu:hover {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e636293e', endColorstr='#e636293e',GradientType=0 );
+	}
+	
+	.header-menu__submenu a:after {
+		display: none;
+	}
+	.header-menu__submenu a:hover:after {
+		display: block;
+	}
+	.header-menu__submenu a:hover {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=0 );
+	}
+	.recent__title {
+		overflow: hidden;
+	}
+}
