@@ -63,9 +63,15 @@
 	.header-menu__submenu a{
 		display: block;
 		position: relative;
+<<<<<<< HEAD
 		height: 31px;
 		padding-top: 9px;
 		box-sizing: content-box;
+=======
+		height: 42px;
+		padding-top: 9px;
+		box-sizing: border-box;
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 		border-top: 1px solid #523e5a;
 		border-bottom: 1px solid #36283e;
 		text-align: center;
@@ -145,6 +151,7 @@
 	}
 	.slider__nav-item {
 		display: inline-block; 
+<<<<<<< HEAD
 		margin-right: 3px;
 		cursor: pointer;
 	position: relative;
@@ -165,6 +172,29 @@ position: absolute;
 	}
 	.slider__nav-item input.checked + span {
 		background: url(../img/slider-nav.png) -21px 0;
+=======
+		width: 17px;
+		height: 17px;
+		margin-right: 5px;
+		background: rgba(0,0,0,0.3);
+		border-radius: 50%;
+		position: relative;
+		box-sizing: border-box;
+	}
+	.slider__nav-item--active:before {
+		content: '';
+		position: absolute;
+		left: 3px;
+		top: 3px;
+		width: 9px;
+		height: 9px;
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 100%);
+		background-image: linear-gradient(to top, #d4d4d4 0%, white 100%);
+		border: 1px solid white;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+		border-radius: 50%;
+		box-sizing: content-box;
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	}
 	.slider__prev {
 		position: absolute;
@@ -318,6 +348,7 @@ position: absolute;
 		word-spacing: -0.5px;
 	}
 	.starts__nav {
+<<<<<<< HEAD
 		padding-left: 205px;
 		margin-top: 23px;
 		font-size: 0;
@@ -347,6 +378,41 @@ position: absolute;
 
 	.recent {
 		padding-top: 33px;
+=======
+		padding-left: 11px;
+		text-align: center;
+		margin-top: 23px;
+	}
+	.starts__nav-item {
+		display: inline-block; 
+		width: 19px;
+		height: 19px;
+		margin-right: -2px;
+		border: 1px solid #e6e6e6;
+		box-shadow: 1px 1.7px 0 white;
+		background-color: #fff;
+		border-radius: 50%;
+		position: relative;
+		box-sizing: border-box;
+
+	}
+	.starts__nav-item--active:before {
+		content: '';
+		position: absolute;
+		left: 2px;
+		top: 2px;
+		width: 13px;
+		height: 13px;
+		background: -moz-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(69,69,69,1) 100%);
+		background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
+		border: 1px solid #454545;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+	.recent {
+		padding-top: 40px;
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 		padding-bottom: 86px;
 	}
 	.recent__header {

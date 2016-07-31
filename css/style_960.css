@@ -109,6 +109,7 @@
 	}
 	.slider__nav {
 		position: absolute;
+<<<<<<< HEAD
 		bottom: -107px;
     left: 709px;
 		font-size: 0;
@@ -137,6 +138,36 @@ position: absolute;
 		background: url(../img/slider-nav.png) -21px 0;
 	}
 	
+=======
+		bottom: -104px;
+		left: 709px;
+		font-size: 0;
+	}
+	.slider__nav-item {
+		position: relative;
+		display: inline-block; 
+		width: 17px;
+		height: 17px;
+		margin-right: 5px;
+		background: rgba(0,0,0,0.3);
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+	.slider__nav-item--active:before {
+		content: '';
+		position: absolute;
+		left: 3px;
+		top: 3px;
+		width: 9px;
+		height: 9px;
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 100%);
+		background: linear-gradient(to top, #d4d4d4 0%, white 100%);
+		border: 1px solid white;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+		border-radius: 50%;
+		box-sizing: content-box;
+	}
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.slider__prev {
 		position: absolute;
 		width: 32px;
@@ -300,6 +331,7 @@ position: absolute;
 		word-spacing: -0.5px;
 	}
 	.starts__nav {
+<<<<<<< HEAD
 		padding-left: 193px;
 		margin-top: 23px;
 		font-size: 0;
@@ -325,6 +357,37 @@ position: absolute;
 	}
 	.starts__nav-item input.checked + span {
 		background: url(../img/starts-nav.png) -23px 0;
+=======
+		padding-left: 19px;
+		text-align: center;
+		margin-top: 23px;
+	}
+	.starts__nav-item {
+		display: inline-block; 
+		width: 19px;
+		height: 19px;
+		margin-right: -2px;
+		border: 1px solid #e6e6e6;
+		box-shadow: 1px 1.7px 0 white;
+		background-color: #fff;
+		border-radius: 50%;
+		position: relative;
+		box-sizing: border-box;
+
+	}
+	.starts__nav-item--active:before {
+		content: '';
+		position: absolute;
+		left: 2px;
+		top: 2px;
+		width: 13px;
+		height: 13px;
+		background: -moz-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(69,69,69,1) 100%);
+		background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
+		border: 1px solid #454545;
+		border-radius: 50%;
+		box-sizing: border-box;
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	}
 
 	.recent {
@@ -391,7 +454,11 @@ position: absolute;
 
 	.recent-after-line {
 		height: 0;
+<<<<<<< HEAD
 		margin-top: 59px;
+=======
+		margin-top: 65px;
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 		border-top: 1px solid #e6e6e6;
 		border-bottom: 1px solid #fefefe;
 	}

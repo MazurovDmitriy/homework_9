@@ -1,8 +1,26 @@
 
 @media screen and (min-width: 320px) {
+<<<<<<< HEAD
 	.slider {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
 	}
+=======
+	.header-logo img{
+		border: 0;
+	}
+	.slider {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
+	}
+	.slider__nav-item {
+		background: url(../img/slider-nav.png);
+	}
+	.slider__nav-item--active {
+		background: url(../img/slider-nav-active.png);
+	}
+	.slider__nav-item--active:before {
+		display: none;
+	}
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.about { 
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
 	}
@@ -15,6 +33,23 @@
 	.starts__photo {
 		behavior: url(/PIE.htc);
 	}
+<<<<<<< HEAD
+=======
+
+	.starts__nav-item {
+		width: 21px;
+		height: 21px;
+		background: url(../img/starts-nav.png);
+		border: none;
+
+	}
+	.starts__nav-item--active {
+		background: url(../img/starts-nav-active.png);
+	}
+	.starts__nav-item--active:before {
+		display: none;
+	}
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.recent__title {
 		overflow: visible;
 	}
@@ -58,15 +93,24 @@
 	.header-menu:hover {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e636293e', endColorstr='#e636293e',GradientType=0 );
 	}
+<<<<<<< HEAD
+=======
+	.header-menu ul li{ 
+		margin-top: -25px; 
+	}
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.header-menu__submenu a:after {
 		display: none;
 	}
 	.header-menu__submenu a:hover:after {
 		display: block;
 	}
+<<<<<<< HEAD
 	.header-menu__submenu a:hover {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=0 );
 	}
+=======
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 }
 
 @media screen and (max-width: 479px) {
@@ -76,16 +120,25 @@
 	.header-menu:hover {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e636293e', endColorstr='#e636293e',GradientType=0 );
 	}
+<<<<<<< HEAD
 	
+=======
+	.header-menu ul li{ 
+		margin-top: -25px; 
+	}
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.header-menu__submenu a:after {
 		display: none;
 	}
 	.header-menu__submenu a:hover:after {
 		display: block;
 	}
+<<<<<<< HEAD
 	.header-menu__submenu a:hover {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=0 );
 	}
+=======
+>>>>>>> 4bdf8e6d2a8fb4c810160f1059b0dd6b92049110
 	.recent__title {
 		overflow: hidden;
 	}
